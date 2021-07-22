@@ -7,15 +7,20 @@ using UnityEngine.UI;
 
 public class MenuManager : MonoBehaviour
 {
+    [Space]
+
     [SerializeField]
     private Text bestScore;
     [SerializeField] 
     private InputField input;
+    
+    [Space]
+
     [SerializeField]
     private Button startButton;
     [SerializeField]
     private Button quitButton;
-
+    
     // Start is called before the first frame update
     void Start()
     {
